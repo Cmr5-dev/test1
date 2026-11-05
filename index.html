@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focus Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="timer">
+    <p class="eyebrow">ONE THING AT A TIME</p>
+    <h1>Focus session</h1>
+    <p id="status" aria-live="polite">Ready when you are.</p>
+    <div id="clock" role="timer" aria-label="25 minutes">25:00</div>
+    <div class="actions">
+      <button id="toggle" type="button">Start focus</button>
+      <button id="reset" type="button" class="secondary">Reset</button>
+    </div>
+    <p class="hint">A little progress adds up. Take it one minute at a time.</p>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
